@@ -1,2 +1,3 @@
 # webapp-sandbox
-test
+This app has following features.
+- Application form
