@@ -1,5 +1,5 @@
 /* ポップアップモーダルのスタイル */
-.modal {
+.shuhoyo-modal {
     display: none;
     position: fixed;
     left: 0;
@@ -11,21 +11,21 @@
     z-index: 1000;
 }
 
-.modal.active {
+.shuhoyo-modal.active {
     display: block;
 }
 
-.modal-content {
+.shuhoyo-modal-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.modal-text {
+.shuhoyo-modal-text {
     font-size: 14px;
 }
 
-.modal-button {
+.shuhoyo-modal-button {
     padding: 10px 20px;
     background-color: #007BFF;
     color: white;
